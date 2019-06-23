@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Brand Immersion Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="slider.js"></script>
+	<link rel="stylesheet" type="text/css" href="slider.css"/>
+	<style>
+			#home {
+			  background: linear-gradient(225deg, #ffc27d, #ff8e93);
+			}
+			#expertise {
+			  background: linear-gradient(#f3defc, #63a3e6);
+			}
+			#work {
+			  background: linear-gradient(#d2fcad, #22eaeb);
+			}
+			#play{
+			  background: linear-gradient(#f0bed4, #a163f5);
+			}
+			#clients {
+			  background: linear-gradient(#65cce1, #6365ec);
+			}
+			#connect {
+			  background: linear-gradient(#65cce1, #4caf50);
+			}
+	  
+			section > span {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  font-size: 7vw;
+			  font-family: sans-serif;
+			  text-transform: uppercase;
+			  color: #fff;
+			}
+		  </style>
+	</head>
+	<body>
+		<div class="slides">
+			<section id="home"><span>Home</span></section>
+			<section id="expertise"><span>Expertise</span></section>
+			<section id="work"><span>Work</span></section>
+			<section id="play"><span>Play</span></section>
+			<section id="clients"><span>Clients</span></section>
+			<section id="connect"><span>Connect</span></section>
+		</div>
+		<script>
+			slider('.slides');
+		</script>
+   </body>
+   </html>
+		
